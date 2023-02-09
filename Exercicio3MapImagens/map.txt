@@ -1,0 +1,6 @@
+map name="image-map">
+    <area target="" alt="" title="" href="" coords="72,89,348,272" shape="rect">
+    <area target="" alt="" title="" href="" coords="594,170,107" shape="circle">
+    <area target="" alt="" title="" href="" coords="185,433,67,669,303,669" shape="poly">
+    <area target="" alt="" title="" href="" coords="530,653,553,580,479,531,577,515,612,444,650,515" shape="poly">
+</map>
