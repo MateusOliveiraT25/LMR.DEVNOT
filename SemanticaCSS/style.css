@@ -55,7 +55,7 @@ body{
 .card-header
     padding-bottom: 80px;
     opacity: 1.8;
-    color: #fff;
+    
 
 .card-header::after {
     content: "";
@@ -105,24 +105,28 @@ body{
     text-decoration: none;
 
 }
-#bodyContato
-{
+#bodyContato {
     padding: 0;
     margin: 0;
     background: linear-gradient(to right, #b6bfc5, #083263);
+
 }
-#contato{
+#contato {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     font-family:  'Times New Roman', Times, serif;
-    .card-header::after {
-        content: "";
-        width: 80px;
-        height: 1px;
-        background-color: #fff;
-        display: block;
-        margin-top: -17px;
-        margin-left: -5px;
-}
+    width: 100%; /*largura*/
+    height: 80px;}
+    #contato-texto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family:  'Times New Roman', Times, serif;
+        width: 100%; /*largura*/
+        height: 80px;
+        
+        
+
+
+    }
