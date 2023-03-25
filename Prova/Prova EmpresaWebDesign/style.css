@@ -1,0 +1,41 @@
+body{
+    background: whitesmoke;
+}
+/*cor de fundo do body cinza*/
+.menu1{
+    width: 100%; /*largura*/
+    height: 50px; /*Altura*/
+    background: gray;
+    display: flex;
+    justify-content: end;
+
+}
+.linkMenu1{
+    color:black;
+    font: size 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}.divBusca{
+    width: 100%; /*largura*/
+    height: 50px;
+}
+
+.menu2 {
+    width: 100%; /*largura*/
+    height: 50px; /*Altura*/
+    background: gray;}
+  
+.menu2 img{
+    height:80px ;}
+    .linkMenu2{
+        color:black;
+        font: size 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+       
+    } .container img{
+        height: 100px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }

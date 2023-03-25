@@ -1,0 +1,119 @@
+body{
+    background:  linear-gradient(to right, #06b80c, #f2f5f8);
+}
+/*cor de fundo do body cinza*/
+.menu {
+    width: 100%; /*largura*/
+    height: 80px; /*Altura*/
+    background-color: linear-gradient(to right, #cad8e1, #051d38); ;
+}
+.menu img{
+    height:60px ;}
+    .linkMenu{
+        color:aliceblue;
+        font-size:2em;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    .parte1{
+        width:100%;
+        height: 800px;
+        text-align:center;
+    }
+    .parte1 img{
+        height: 800px;
+    }
+    .parte1 h1 {
+        color:greenyellow;
+    }
+    .parte1 p{
+        font-family: 'Times New Roman', Times, serif;
+        color:azure;
+    }
+    
+#bodyLogin {
+    padding: 0;
+    margin: 0;
+    background:  linear-gradient(to right, #06b80c, #f2f5f8);
+}
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family:  'Times New Roman', Times, serif;
+}
+.card {
+    background-color: linear-gradient(to right, #06b80c, #f2f5f8);
+    padding: 40px;
+    border-radius: 2px;
+    width:280px;
+}
+
+    
+
+.card-header::after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background-color: hsl(35, 55%, 48%);
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.card-content label {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding:15px 0;
+}
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 3px solid #100c0c;
+    outline: none;
+    color:  #100c0c;
+}
+.card-footer {
+    display: flex;
+    flex-direction: column;
+}
+.card-footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color: goldenrod;
+    border:none;
+    color:#e1e1e1;
+    margin: 10px 0;
+}
+.card-footer a {
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.8;
+    color:  #100c0c;
+    text-decoration: none;
+}#bodyformulario {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    height: 100vh;
+    font-family:  'Times New Roman', Times, serif;
+}.formula2{
+    display: block;
+    align-items: center;
+    justify-content:end;
+    font-family:  'Times New Roman', Times, serif;
+    flex-direction:row;
+    width: 10%; 
+    height: 40px;}
+    .card-footer {
+        display: flex;
+        flex-direction: column;
+}
