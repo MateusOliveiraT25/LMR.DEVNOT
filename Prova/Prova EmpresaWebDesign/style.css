@@ -1,14 +1,20 @@
 body{
+    margin: 0;
     background: whitesmoke;
 }
 /*cor de fundo do body cinza*/
-.menu1{
+.nav{
     width: 100%; /*largura*/
-    height: 50px; /*Altura*/
-    background: gray;
+    height: 10vh; /*Altura*/
+    background: black;
     display: flex;
     justify-content: end;
 
+}
+.nav .linkMenu a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 24px;
 }
 .linkMenu1{
     color:black;
@@ -21,20 +27,27 @@ body{
     height: 50px;
 }
 
-.menu2 {
+.menu{
     width: 100%; /*largura*/
-    height: 50px; /*Altura*/
-    background: gray;}
+    height: 4vh; /*Altura*/
+    background: gray;
+    display: flex;
+    justify-content: space-evenly;
+}
   
-.menu2 img{
-    height:80px ;}
-    .linkMenu2{
-        color:black;
-        font: size 2px;
-        margin-left: 5px;
-        margin-right: 5px;
+.menu img{
+    height:100% ;}
+    .menu .menuItens{
+        width: 60%;
+        
+    }
+    .menu a{
+        text-decoration: none;
+        font-size: 24px;
+
+    }
        
-    } .container img{
+    .container img{
         height: 100px;
         margin-left: 15px;
         margin-right: 15px;
