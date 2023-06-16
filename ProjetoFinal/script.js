@@ -3,10 +3,10 @@
    let pEndereco = document.getElementById('pEndereco').value;
    let cidade = document.getElementById('pCidade').value;
    let email = document.getElementById('pEmail').value;
-   let emailConf = document.getElementById('pEmailC').value;
+   let emailC = document.getElementById('pEmailC').value;
    let senha = document.getElementById('pSenha').value;
    let senhaConf = document.getElementById('pSenhaC').value;
-   function Cadastrar() {
+   function Enviar() {
     if (Nome == "") 
         alert("Prencha todos os campos")
         if (endereco == "") 
@@ -25,7 +25,7 @@
 
     
         function verificarEmail() {
-    if (email!= email)
+    if (email!= emailC)
     alert("Emails não batem")
 }
 // Activate Carousel
