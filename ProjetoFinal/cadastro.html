@@ -42,62 +42,48 @@
       </nav>
    </header> 
    <section>
-    <div class="formulario">
+    <div id="formulario">
     <div class="conteiner">
     
         <form class="row g-3">
 
 
 
-            <div class="col-md-4">
-                <label for="validationDefault01" class="form-label">Nome</label>
+            <div class="col-md-11">
+                <label for="validationDefault01" class="form-label">Nome Completo</label>
                 <input type="text" class="form-control" id="pNome" value="Nome" required>
               </div>
-              <div class="col-md-4">
-                <label for="validationDefault02" class="form-label">Sobrenome</label>
-                <input type="text" class="form-control" id="validationDefault02" value="Sobrenome" required>
-              </div>
-              <br>
-              <br>
-              <br>
-              <div class="col-md-4">
-                <label for="validationDefaultUsername" class="form-label">Telefone</label>
-                <div class="input-group">
-                  <span class="input-group-text" id="inputGroupPrepend2">55</span>
-                  <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
-                </div>
-              </div>
-
-            <div class="col-md-6">
+              
+            <div class="col-md-11">
               <label for="inputEmail4" class="form-label">Email</label>
               <input type="email" class="form-control" id="pEmail">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-11">
               <label for="inputEmail4" class="form-label">Confirme Email</label>
               <input type="email" class="form-control" id="pEmailC">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-11">
               <label for="inputPassword4" class="form-label">Senha</label>
               <input type="password" class="form-control" id="pSenha">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-11">
               <label for="inputPassword4" class="form-label">Confirme Senha</label>
               <input type="password" class="form-control" id="pSenhaC">
             </div>
             
-            <div class="col-12">
+            <div class="col-6">
               <label for="inputAddress" class="form-label">Endereço</label>
               <input type="text" class="form-control" id="pEndereço" placeholder="Casa">
             </div>
-            <div class="col-12">
+            <div class="col-5">
               <label for="inputAddress2" class="form-label">Complemento</label>
               <input type="text" class="form-control" id="inputAddress2" placeholder="Bloco">
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
               <label for="inputCity" class="form-label">Cidade</label>
               <input type="text" class="form-control" id="pCidade">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <label for="inputState" class="form-label">Estado</label>
               <select id="pEstado" class="form-select">
                 <option selected>Selecione...</option>
@@ -131,6 +117,14 @@
               </select>
              
             </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label">Telefone</label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">55</span>
+                <input type="text" class="form-control" id="pTelefone" aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div>
+
             
 <br>
 <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
@@ -145,7 +139,7 @@
               <br>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Registrar</button>
+              <button type="submit" class="onclick">Cadastrar</button>
             </div>
           </form>
     </div>
@@ -167,4 +161,5 @@
     <script src="script.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
     </html>

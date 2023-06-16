@@ -1,13 +1,13 @@
 
-   let nome = document.getElementById('pNomeCompleto').value;
-   let endereco = document.getElementById('pEndereco').value;
+   let Nome = document.getElementById('pNome').value;
+   let pEndereco = document.getElementById('pEndereco').value;
    let cidade = document.getElementById('pCidade').value;
    let email = document.getElementById('pEmail').value;
    let emailConf = document.getElementById('pEmailC').value;
    let senha = document.getElementById('pSenha').value;
    let senhaConf = document.getElementById('pSenhaC').value;
-   function Enviar() {
-    if (nome == "") 
+   function Cadastrar() {
+    if (Nome == "") 
         alert("Prencha todos os campos")
         if (endereco == "") 
             alert("Prencha todos os campos")
@@ -25,7 +25,18 @@
 
     
         function verificarEmail() {
-    if (email!= emailConf)
+    if (email!= email)
     alert("Emails não batem")
 }
-   
+// Activate Carousel
+$("#carouselExampleIndicators").carousel();
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+  $("#carouselExampleIndicators").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+  $("#carouselExampleIndicators").carousel("prev");
+});
